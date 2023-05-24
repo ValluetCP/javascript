@@ -156,11 +156,11 @@ console.log(monPrenom); //6
 // Différents types de fonctions :
 //  1 - une fonction avec au moins un paramètre sans valeur de retour
 // ex : donne l'argent pour le sandwich -> achète le sandwich
-// 2 - 
+// 2 - une fonction avec au moins un paramètre avec une valeur de retour
 //  ex : donne l'argent pour acheter une baguette -> attend un retour (la baguette)
 //  = quand il y a un retour, il faut de quoi le stocker (une variable)
-// 3- 
+// 3- une fonction sans paramètres avec une valeur de retour
 // ex : le fils offre des fleurs
-// 4- 
+// 4- une fonction sans paramètres et sans une valeur de retour
 // ex : Mitra lui dit d'aller au cinéma
 
