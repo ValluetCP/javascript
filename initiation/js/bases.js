@@ -100,6 +100,8 @@ console.log(unChiffre);
 console.log(typeof unChiffre);
 
 // STRING => NUMBER
+// transforme (converti) un type string en type number
+// NUMBER : affiche le chiffre (entier) / coupe la décimal s'il y en a une.
 unChiffre = parseInt(unChiffre);
 console.log(unChiffre);
 console.log(typeof unChiffre);
@@ -110,6 +112,7 @@ console.log(unChiffre);
 console.log(typeof unChiffre);
 
 // STRING => FLOAT
+// FLOAT : affiche le chiffre (avec la décimale)
 unChiffre = parseFloat(unChiffre);
 console.log(unChiffre);
 console.log(typeof unChiffre);
@@ -119,7 +122,7 @@ var nb_en_lettres = 258;
 console.log(nb_en_lettres);
 console.log(typeof nb_en_lettres);
 
-var nb_en_lettres = nb_en_lettres.toString();
+nb_en_lettres = nb_en_lettres.toString();
 console.log(nb_en_lettres);
 console.log(typeof nb_en_lettres);
 
