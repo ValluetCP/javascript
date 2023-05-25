@@ -84,6 +84,7 @@ var unBooleen = false; // -- true
 const PAYS = "France"; // string
 const AN = '2020'; // string
 const BIRTH = 2020; // nombre
+// la valeur qu'on a affecté à une constance ne peut pas être changé contrairement au variable.
 
 // -- 6. typeof permet de connaître le type de ma variable
 console.log(vacances);

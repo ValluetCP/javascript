@@ -10,13 +10,13 @@
                         
                         //-- CHAÎNE DE CARACTERE --//
 
-// var prenom = "Cynthia";  // string / chaîne de caractère
+var prenom = "Cynthia";  // string / chaîne de caractère
 
-// var monNumero = 65; // numérique / number
+var monNumero = 65; // numérique / number
 
-// var monNum = "0616223915"; // string / chaîne de caractère
+var monNum = "0616223915"; // string / chaîne de caractère
 
-//var nom = petitot;  // false / syntaxe fausse
+var nom = petitot;  // false / syntaxe fausse
 
 // ligne 1 :
 // le nom de la variable = prenom
@@ -26,9 +26,9 @@
 
                         //-- BOOLEAN --//
 
-// var booleanFalse = false; // boolean faux
+var booleanFalse = false; // boolean faux
 
-// var booleanTrue = true; // boolean vrai
+var booleanTrue = true; // boolean vrai
 
 // var varNull = null; // null
 
@@ -152,6 +152,9 @@ console.log(monPrenom); //6
 
 
 // Fonctions
+// elles sont déjà déclaré par JS, on exécute juste la fonction.
+//  = ce sont des fonctions par défaut.
+// = on donne une mission à la fonction
 
 // Différents types de fonctions :
 //  1 - une fonction avec au moins un paramètre sans valeur de retour
