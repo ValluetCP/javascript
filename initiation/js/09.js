@@ -144,7 +144,7 @@ var first = fruits[0];
 var second = fruits2[0];
 var third = fruits2['troisemeFruit'];
 console.log(second);
-console.log("La valeur du troisième élément :" + var couleurs = ['rouge', 'vert', 'bleu'];
+// console.log("La valeur du troisième élément :" + var couleurs = ['rouge', 'vert', 'bleu'];
 for (var w = 0; w < couleurs.length; w++) {
     console.log(couleurs[w]);
     document.write("<p>" + couleurs[w] + "</p>");
