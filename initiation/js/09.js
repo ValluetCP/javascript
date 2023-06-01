@@ -23,7 +23,7 @@ console.log(fruits.length);
 // .length est une propriété (fonctionne exactement comme une variable), il appel le nombre d'élément dans le tableau.t
 //  = nombre d'éléments ou encore taille du tableau
 // 2
-// fruits. = deésigne un objet car il est placé devant un point
+// fruits. = désigne un objet car il est placé devant un point
 
 //Accéder(via son index) à un élément du tableau
 var first = fruits[0];
