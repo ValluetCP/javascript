@@ -39,6 +39,8 @@
 // - retourne une valeur qui est la nouvelle longueur du tableau
 // - par conséquent, la variable sera bien de type number
 
+// fruits.push('Mango'); // Quel intérêt ?????
+
 // Lors d'un SUPPRESSION d'élément avec POP et SHIFT, 2 opérations se font :
 // - chacun supprime (la première ou dernière ligne du tableau)
 // - est une fonction qui ne contient aucun élément
