@@ -83,6 +83,10 @@ trousse.push('stylos','crayon');
 console.log(trousse);
 console.log(newLength); // toujours 3, car on ne l'a pas stocker dans une variable
 
+var pos = trousse.indexOf('feutre');
+console.log(pos);
+// Pour afficher le numéro de l'index
+
 // var newLength = trousse.push('stylos','crayon');
 // console.log(trousse);
 // console.log(newLength);

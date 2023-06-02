@@ -79,10 +79,14 @@ var newLength = fruits.unshift('Strawberry') // ajoute au début
 
 fruits.push('Mango');
 // ["Strawberry", "Banana", "Mango"]
+console.log(fruits.push('Mango'));
+// ajoute un autre mango (il y a 2 mango)
+console.log(newLength);
 
 // Créer un tableau
 //Trouver l'index d'un élément dans le tableau
 var pos = fruits.indexOf('Banana');
+console.log(pos);
 // 1
 //  c'est l'index des éléments dans un tableau
 
