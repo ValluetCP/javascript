@@ -26,7 +26,7 @@
 
 
 // fruits.length 
-// .length 
+// .length
 //  = une propriété
 //  = nombre d'éléments dans un tableau
 //  fruits. = désigne un objet car il est placé devant un point
@@ -43,8 +43,8 @@
 
 // Lors d'un SUPPRESSION d'élément avec POP et SHIFT, 2 opérations se font :
 // - chacun supprime (la première ou dernière ligne du tableau)
-// - est une fonction qui ne contient aucun élément
-// - retourne une valeur l'élément supprimé
+// - est une fonction qui ne contient aucun paramètre
+// - retourne une valeur, l'élément supprimé
 // - par conséquent, la variable sera bien de type string
 
 var trousse = ['stylos', 'feutre'];
