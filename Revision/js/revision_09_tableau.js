@@ -97,13 +97,6 @@ console.log(pos);
 
 
 
-
-
-
-
-
-
-
 var trousse2 = {
         0: 'stylos',
         1: 'feutre',
