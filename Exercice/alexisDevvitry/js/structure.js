@@ -1,11 +1,17 @@
-var developpeurs = ["Alexis", "Alin", "Cynthia", "Faïssal", "Jérémy", "Karima", "Michel", "Narcis", "Nawal", "Oliver", "Rahim", "Wassila", ];
 
+
+var developpeurs = ["Alexis", "Alin", "Cynthia", "Faïssal", "Jérémy", "Karima", "Michel", "Narcis", "Nawal", "Oliver", "Rahim", "Wassila", ]; // 1
+
+//  Implantation ou déclaration d'une fonction basique
 function affichagePrenoms(namDev) {
+    // il prend pour paramètre type de variable 
     for (var i = 0; i < namDev.length; i++) {
         document.write(" " + namDev[i]);
     }
 }
-// affichagePrenoms(developpeurs);
+
+// Exécution de la fonction
+// affichagePrenoms(developpeurs); 
 
 
 var prenoms = [];
@@ -15,7 +21,7 @@ while (saisie < 12) {
     saisie++;
 }
 // document.write(prenoms);
-affichagePrenoms(prenoms);
+affichagePrenoms(prenoms); // 2
 
 
 
