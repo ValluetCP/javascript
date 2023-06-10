@@ -17,11 +17,11 @@
 // - Exécution 
 // - Incrémentation
 
-// var k = 0; /*déclaration et affectation*/
-// while (k < couleurs.lenght) /*condition*/ {
-//     document.write("<p>" + couleurs[k] + "</p>"); /*éxécution*/
-//     k++; /*incrémentation*/
-// }
+var k = 0; /*déclaration et affectation*/
+while (k < couleurs.lenght) /*condition*/ {
+    document.write("<p>" + couleurs[k] + "</p>"); /*éxécution*/
+    k++; /*incrémentation*/
+}
 
 
 
