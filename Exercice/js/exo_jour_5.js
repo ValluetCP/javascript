@@ -64,7 +64,16 @@ while (nombre <= 3 || nombre>= 120 || (isNaN(nombre))) {
 
 var majoriteFR = 18;
 
-function afficheAge(age){
-    // document.write(age);
+function afficheAge(agePersonne, ageAdulte){
+
+    if ((agePersonne > 3) && (agePersonne < ageAdulte)){
+      alert("Vous n'êtes pas encore majeur !")
+    }
+
+    if ((agePersonne >= ageAdulte) && (agePersonne <= 120)){
+      alert("Bienvenue, vous êtes majeur.")
+    }
 
 }
+
+afficheAge(nombre, majoriteFR );
