@@ -77,4 +77,32 @@ if(!true){
     console.log(`La condition est fausse`);
 }
 
+// * ---- Test avec Mitra et Michel ---- *//
+
+// L'opérateur ET : && ou AND
+// */
+
+// -- Si je cumule 2 conditions :
+// => prenom === prenomLogin
+// => monAge === ageLogin
+
+var unString = "12";
+var unNumber = 12;
+
+// pour que les 2 correspondent pour être validés il faut les associer
+
+if ( unString == unNumber) {
+    console.log("c'est vrai");
+}
+
+if (unString === unNumber) {
+    /* ... code ... */
+    /* je ne rentre ici que si les 2 conditions sont vraies */
+}
+
+if ( (prenomLogin === prenom) && (ageLogin === monAge) ) {
+    /* ... code ... */
+    /* je ne rentre ici que si les 2 conditions sont vraies */
+}
+
 
