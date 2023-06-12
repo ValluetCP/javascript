@@ -61,6 +61,9 @@ var nombre = prompt("Quel est votre âge?");
 while (nombre <= 3 || nombre>= 120 || (isNaN(nombre))) {
   nombre = prompt("Quel est votre âge?");
 }
+// while (nombre <= 3 || nombre>= 120) {
+//   nombre = parseInt(prompt("Quel est votre âge?"));
+// }
 
 var majoriteFR = 18;
 
@@ -79,7 +82,7 @@ function afficheAge(agePersonne, ageAdulte){
 afficheAge(nombre, majoriteFR );
 
 
-// ---------------------- Exercices - CORRECTION ----------------------- //
+// --------------------- Exercices - CORRECTION ---------------------- //
 
 // function afficheAge(agePersonne, ageAdulte) {
 //   if (agePersonne < ageAdulte) {

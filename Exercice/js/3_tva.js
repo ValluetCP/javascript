@@ -25,8 +25,3 @@ console.log(horsTaxes);
 var ttc = horsTaxes
 console.log(ttc);
 
-
-
-
-
-
