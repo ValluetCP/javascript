@@ -58,6 +58,8 @@
 
 // Lien : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Math/random 
 
+// Lien :  https://www.w3schools.com/js/js_random.asp
+
 
 
 // Random : donne une valeur de retour entre 0 et 1 ouvert (à savoir 0,9999...) autre syntaxe [0 à 1[   :  Math.random()
@@ -154,3 +156,14 @@ document.write(resultat);
 
 
 // ---------------------- Exercices - 1 (3ème partie)----------------------- //
+
+// 1 - Attribuer un prénom aléatoirement associé à un adjectif aléatoire
+
+
+var prenom = ["Nawal","Wassila","Rahim","Jérémy","Narcis","Karima","Faissal","Alin","Oliver","Cynthia","Alexis","Michel"];
+
+var adjectif = ["perspicace","intelligent(e)","curieux(se)","cool","agréable","sérieu(se)","joviale","timide","colérique","encourageant(e)","narcissique","fiable"];
+
+
+resultat = (prenom[ChiffreRand]) + " " + (adjectif[ChiffreRand]);
+document.write(resultat);
