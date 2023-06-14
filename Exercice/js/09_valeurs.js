@@ -2,7 +2,7 @@
 
 // Voir fichier : 09_valeurs.html
 
-// ------------ Exercices - 1 (1ère partie)------------- //
+// ------------ Exercices - 1 ------------- //
 
 var nb1 = Number(prompt("Entrez nb1 :"));
 		var nb2 = Number(prompt("Entrez nb2 :"));
