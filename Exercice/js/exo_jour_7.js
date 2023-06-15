@@ -164,6 +164,12 @@ var prenom = ["Nawal","Wassila","Rahim","Jérémy","Narcis","Karima","Faissal","
 
 var adjectif = ["perspicace","intelligent(e)","curieux(se)","cool","agréable","sérieu(se)","joviale","timide","colérique","encourageant(e)","narcissique","fiable"];
 
+var ChiffreRand = Math.random();
+ChiffreRand = ChiffreRand*12;
+ChiffreRand = Math.floor(ChiffreRand);
 
-resultat = (prenom[ChiffreRand]) + " " + (adjectif[ChiffreRand]);
+resultat = (prenom[ChiffreRand]) + " " + ChiffreRand + "<br>";
 document.write(resultat);
+
+result = (prenom[ChiffreRand]) + " " + (adjectif[ChiffreRand]);
+document.write(result);
