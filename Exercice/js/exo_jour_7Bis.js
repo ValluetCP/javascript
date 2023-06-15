@@ -7,21 +7,26 @@
 //  b/Dans une boucle "for", utiliser une boîte dialogue afin de saisir des données (nombre de l'affichage de la boîte de dialogue dépend du nombre qui      vient du paramètre utilisé dans la fonction)
 //  c/ Les données saisies à partir de la boîte de dialogue seront stockées dans le tableau "addElement" 
 
+
+
 // -------------- Exercices - 1 (1ère partie) --------------- //
 
-function fillArray(num){
-    var addElement = [];
+// function fillArray(num){
+//     var addElement = [];
 
-    var elem;
+//     var elem;
 
-    for (var i = 0; i < num; i++){
+//     for (var i = 0; i < num; i++){
 
         
-    }
+//     }
 
-}
+// }
+
+
 
 // -------- Exercices - 1 (1ère partie) CORRECTION COLLECTIVE--------- //
+
 
 // 1- Déclarer une fonction "fillArray" qui prend en paramètre un entier "num" et elle retourne un tableau "addElement"
 // 2- dans la fonction :
@@ -43,6 +48,9 @@ function fillArray(num) {
   
   
   
- // execution de la fonction : 
-  var fruits = fillArray(3);
+ // execution de la fonction :
+  var nombre = prompt("Insérez le nombre d'élément de votre array : ");
+  var fruits = fillArray(nombre);
   console.log(fruits);
+
+  
