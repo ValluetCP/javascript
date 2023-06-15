@@ -16,13 +16,23 @@
 
 var moyenne = prompt("Veuillez saisir votre moyenne");
 
+
+// var moyenne = parseFloat(prompt("Veuillez saisir votre moyenne"));
+// Convertir la chaîne de caractère en number.
+
+
+
+while(isNaN(moyenne)){
+    moyenne = prompt("Veuillez saisir votre moyenne");
+}
+
 if (moyenne < 10){
     document.write("Vous êtes recalé");
 }
-else if ((moyenne >= 10) && (moyenne <= 12)){
+else if ((moyenne >= 10) && (moyenne < 12)){
     document.write("Vous êtes reçu");
 }
-else {
+else if(moyenne >= 12) {
     document.write("Vous êtes reçu avec mention");
 }
 

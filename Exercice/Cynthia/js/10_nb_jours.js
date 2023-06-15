@@ -48,7 +48,3 @@ switch(mois){
     default:
     document.write("Veuillez saisir un mois");
 }
-
-// includes = fonction
-// Tant qu'il n'est pas inclut, faire...
-// 
