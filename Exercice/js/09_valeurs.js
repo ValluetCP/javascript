@@ -5,8 +5,9 @@
 // ------------ Exercices - 1 ------------- //
 
 var nb1 = Number(prompt("Entrez nb1 :"));
-		var nb2 = Number(prompt("Entrez nb2 :"));
-		var nb3 = Number(prompt("Entrez nb3 :"));
+// (Number) Majuscule : C'est un objet (= une class), retourne une valeur numérique. Différent de parseit et parsefloat.
+var nb2 = Number(prompt("Entrez nb2 :"));
+var nb3 = Number(prompt("Entrez nb3 :"));
 
 		if (nb1 > nb2){
 			nb1 = nb3 * 2;
