@@ -16,9 +16,10 @@
 
 var heure = prompt("Saisissez le nombre d'heure");
 var minute = prompt("Saisissez le nombre de minutes");
-var secondes = prompt("Saisissez le nombre de secondes");
+var seconde = prompt("Saisissez le nombre de secondes");
 
-if ((heure >= 0 ) && (heure >= 23)  && (minute >= 0 ) && (minute >= 59) && (seconde >= 0 ) && (seconde >= 59)){
+if ((heure >= 0 ) && (heure <= 23)  && (minute >= 0 ) && (minute <= 59) && (seconde >= 0 ) && (seconde <= 59)){
+    seconde++;
     if (seconde === 60){
         seconde = 0;
         minute ++;
@@ -27,8 +28,10 @@ if ((heure >= 0 ) && (heure >= 23)  && (minute >= 0 ) && (minute >= 59) && (seco
             heure ++;
             if (heure === 24){
                 heure = 0;
-            }
-                
+            }       
         }
     }
+    document.write("<h3>Dans une seconde il sera " + heure + " h " + minute + " m " + seconde + " s</h3>");
+}else{
+    document.write("Heure incorrecte !");
 }
