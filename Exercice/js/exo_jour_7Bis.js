@@ -45,6 +45,8 @@ function fillArray(num) {
   
     return addElement;
   }
+  document.write(addElement);
+  document.write(elem);
   
   
   
