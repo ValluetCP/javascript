@@ -19,13 +19,13 @@ while ((nombre < 50) || (nombre > 100)) {
 // while (nombre != 'quitter') {
 //     if (nombre >= 50 && nombre <= 100) {
 //         alert("le nombre : " + nombre + " que Vous avez saisie  est compris entre 50 et 100");
-//         nombre = prompt("Entrer un nombre  'quitter' pour quitter");
+//         nombre = prompt("Entrer un nombre ou faites 'quitter' pour quitter");
 //     }
 //     else if (nombre < 50 || nombre > 100) {
 //         alert("Vous avez saisie " + nombre + " n'appartient pas a l'intervalle 50 et 100");
-//         nombre = prompt("Entrer un nombre  'quitter' pour quitter");
+//         nombre = prompt("Entrer un nombre ou faites 'quitter' pour quitter");
 //     }
 //     else {
-//         alert("Erreure entrer un nombre correcte");
+//         alert("Erreur entrer un nombre correcte");
 //     }
 // }
