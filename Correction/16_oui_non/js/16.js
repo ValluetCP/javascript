@@ -8,5 +8,7 @@ while ((disMoi !== "oui") && (disMoi !== "non") && (disMoi !== "Oui") && (disMoi
     document.write('"' + disMoi + '" n\'est pas une réponse, pour la ' + i + '° fois, veux-tu jouer oui ou non? <br>');
     i++;
 }
+
 i--;//parce qu'il y a une incrémentation en trop
 document.write("<p style='background-color:cyan; text-align:center;'>PERDU ;-) ! Tu as tenu " + i + " tours.</p>");
+
