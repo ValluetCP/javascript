@@ -100,3 +100,4 @@ console.log(votreAge);
 
 // Exercice 3c //
     
+// var annee = 365;
