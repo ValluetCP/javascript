@@ -35,7 +35,7 @@ for (let i = 0; i < 10; i++){
     }
 }
 
- 
+
 
 //  exemple du continue => on souhaite afficher que les nombres pairs entre 0 et 10
 for (let i = 0; i <= 10; i++){
