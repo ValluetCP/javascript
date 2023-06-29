@@ -199,6 +199,143 @@ let tab2 = [5, 8, 3, 0];
 let resultat6 = maxTab(tab1);
 console.log(resultat6);
 
+// ---------------------- Correction - 4 ----------------------- //
+
+//Voir correction exercice 3
+
+function minTab(tableau) {
+   let min = tableau[0]; // on considere le premier elemement comme etant le plus grand
+   for (let i = 0; i < tableau.length; i++){ // pour i allant de 0 a la taille du tableau
+       // comparer max de la valeur a la position i du tableau
+       if (min > tableau[i]) {  // si max est plus petit
+           // on remplace la valeur de max par la valeur de la position i du tableau
+           min = tableau[i]; 
+       }
+   }
+   return min; // retourner max
+}
+
+
+
+
+// *************************  ENONCE - 5 **********************//
+
+/*ecrire une fonction maxMinTab qui prend en paramètre un tableau composé de nombres et un boolean●si le deuxieme parametre égale true la fonction devra retourner le plus grand nombre du tableau ●sinon elle retournera le plus petitexemple:maxMinTab([2, 7, 4, 0], true) => 7maxMinTab([2, 7, 4, 0], false) => 0*/
+
+
+// ---------------------- Exercices - 5 ----------------------- //
+
+// à refaire à la maison seule.
+
+// ---------------------- Correction - 5 ----------------------- //
+
+function maxMinTab(tableau, c) {
+   if (c == true) {
+       return maxTab(tableau);
+   } else {
+       return minTab(tableau);
+   }
+}
+
+// *************************  ENONCE - 6 **********************//
+/*
+
+soit les tableaux suivantsconstarray= [1, 12, 3, 67, 1, 23, 0, 87];constarray2= [1, 1, 2, 3, 4, 5];
+constarray3= [0];
+constarray4= ['never gonna', 'give you', 'up'];
+constarray5= ['never gonna', 'let you', 'down'];
+
+Ecrivez une fonction "verifSortAsc" qui prend en paramètre un tableau et vérifie qu'il est bien trié dans l'ordre ascendant.
+La fonction devra retourner "true" si c'est le cas, "false" sinon.
+Exemples :
+verifSortAsc(array) => doit retourner "false"verifSortAsc(array2) => doit retourner "true"*/
+
+// ---------------------- Exercices - 6  ----------------------- //
+// ---------------------- Correction - 6----------------------- //
+const array = [1, 12, 3, 67, 1, 23, 0, 87];
+const array2 = [1, 1, 2, 3, 4, 5];
+const array3 = [0];
+const array4 = ['never gonna', 'give you', 'up'];
+const array5 = ['never gonna', 'let you', 'down'];
+
+ 
+
+function verifSortAsc(tableau) {
+    let estTrier = true; // par defaut on considere que le tableau est trie
+    let tab = []; // declare un tableau vide pour avoir une copy du tableau
+    for (let i = 0; i < tableau.length; i++){ //
+        // remplir le tableau tab par les valeur du tableau tableau
+        tab.push(tableau[i]); 
+    }
+    tab.sort(); // trier tab
+
+ 
+
+    for (let i = 0; i < tab.length; i++){ // pour i allant de 0 a taille du tableau
+        if (tab[i] == tableau[i]) { // si tab[i] == tableau[i]
+            estTrier = true;
+        } else { // sinon
+            estTrier = false;
+            break; // on sort de la boucle
+        }
+    }
+    return estTrier;
+}
+
+ 
+
+console.log(verifSortAsc(array5)); // => 
+
+
+// *************************  ENONCE - 7 **********************//
+/*
+(page 8)
+Ecrivez une fonction "reverseWord" qui prend une chaîne de caractères en paramètre et qui retourne la chaîne de caractères inversée.
+Exemple :
+reverseWord("Hello World!") => doit retourner "!dlroW olleH" */
+
+// ---------------------- Exercices - 7  ----------------------- //
+
+//(page 8)
+
+let prenom = ["Alexis", "Jérémy", "Michel", "Faissal"];
+
+function reverseWorld(stringTab){
+   stringTab.split('');
+   console.log(stringTab);
+   stringTab.reverse();
+   stringTab.join('');
+   return stringTab;
+}
+
+let prenomInverse = reverseWorld(prenom);
+
+// ---------------------- Correction - 7----------------------- //
+
+// (page 8)
+
+function reverseWord(str) {
+   let tab = str.split(''); // conversion de la chaine de caractere en tableau
+   tab.reverse(); // inverser le tableau
+   let chaine = tab.join(''); // convertir le tableau en chaine de caractere
+   return chaine;
+   // return str.split('').reverse().join('');
+}
+
+// (page 9)
+
+function reverseWord(str) {
+   return str.reverse();
+}
+
+// *************************  ENONCE - 8 **********************//
+// ---------------------- Exercices - 8  ----------------------- //
+// ---------------------- Correction - 8----------------------- //
+
+// *************************  ENONCE - 9 **********************//
+// ---------------------- Exercices - 9  ----------------------- //
+// ---------------------- Correction - 9----------------------- //
+
 
 // --------------- 1 - Exercice de révision ---------------- //
 

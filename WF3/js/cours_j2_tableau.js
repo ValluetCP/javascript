@@ -67,3 +67,10 @@ console.log(tab7);
 let tab8 = [1, 6, 8, 3];
 let tab9 = tab8.map(e => e * 5); // [5, 30, 40, 15]
 console.log(tab9);
+
+// convertir une chaîne de caractère en tableau
+str.split(' ');
+// pour inverser l'ordre
+str.reverse();
+// convertir un tableau en chaîne de caractère
+str.join(' ');
