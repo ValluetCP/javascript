@@ -26,7 +26,7 @@
     <script>
     // Votre code JS sera écrit ici
     // let titreH1 = document.getElementsByTagName("h1");
-    let titre = document.querySelector("title");
+    let titre = document.querySelector(".title");
     titre.classList.add("red");
     console.log(titre.className);
 
@@ -49,6 +49,20 @@
     Sélectionner l'élément <p> avec la classe "content" et remplacez la classe content par la classe blue.
 
     Sélectionner l'élément <button> avec l'ID "btn" donnez lui une classe bouton
+-->
+
+<!-- Correction -->
+<!-- 
+    <script>
+        let t = document.querySelector(".title");
+        t.classList.add("red");
+
+        let p = document.getElementsByClassName("content");
+        p[0].className = "blue";
+
+        let b = document.getElementById("btn");
+        b.className = "bouton";
+    </script> 
 -->
 
 
