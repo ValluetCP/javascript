@@ -1,3 +1,5 @@
+// ---------------------- Correction - 1 ----------------------- //
+
 // alert('test');
 for (var i = 1; i <= 10; i++) {
     if (i % 2 === 0) {// si i est pair
@@ -7,6 +9,8 @@ for (var i = 1; i <= 10; i++) {
     }
 }
 document.write("<hr />");
+
+// ---------------------- Correction - 2 ----------------------- //
 
 // Correction en WHILE
 var chiffre = parseInt(prompt("Choisir un nombre entier"));
