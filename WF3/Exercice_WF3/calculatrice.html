@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <input id="nb1" type="text" placeholder="nombre 1">
+    <button id="plus">+</button>
+    <button id="moins">-</button>
+    <button id="mult">*</button>
+    <button id="division">/</button>
+    <input id="nb2" type="text" placeholder="nombre 2">
+    <button id="egal">=</button>
+    <input type="text" disabled>
+    <script>
+        let nombre1 = document.getElementById('nb1');
+        let btnPlus = document.getElementById('plus');
+        let btnMoins = document.getElementById('moins');
+        let btnMult = document.getElementById('mult');
+        let btnDivision = document.getElementById('division');
+        let nombre2 = document.getElementById('nb2');
+        let btnEgal = document.getElementById('egal');
+        let operateur= "+";
+
+        btnPlus.addEventListener('click', () => {
+            operateur= "+";
+        });
+
+        btnMoins.addEventListener('click', () => {
+            operateur= "-";
+        });
+        
+        btnMult.addEventListener('click', () => {
+            operateur= "*";
+        });
+        
+        btnDivision.addEventListener('click', () => {
+            operateur= "/";
+        });
+        
+        btnEgal.addEventListener('click', () => {
+            if (operateur ="+"){
+                
+            }
+        });
+
+    </script>
+</body>
+</html>
