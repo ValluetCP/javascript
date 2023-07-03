@@ -12,7 +12,26 @@ let input = document.querySelector("input[type='submit']");
 element.classList; // récupérer toutes les class de l'élément
 element.className;
 element.className = "nom"; // pour modifier une valeur
+console.log(element.id); // Affiche le contenu de l'ID
 element.id;
+
+// page 28
+element.innerHTML; //pour changer le contenu d'un element HTML
+// page 35
+nodeValue; 
+
+// page 26
+element.style.color = "red";
+element.style.backgroundColor = "";
+
+// nodeChild p 30
+
+// page 37 et 39
+createElement // Créer un élément à partir de la du parent
+textContent // Créer du contenu textuel
+
+// revoir page 42 <p> et non <span>
+// revoir page 18 ligne 4 head et non body
 
 
 console.log(input);
