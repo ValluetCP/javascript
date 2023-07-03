@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice To Do List</title>
+    <style>
+        /* body{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+        } */
+
+        form{
+            width: 500px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+
+        .init{
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+
+        #todo{
+            width: 500px;
+            height: 30px;
+            
+        }
+
+        #valid{
+            width: 150px;
+            height: 30px;
+            background-color: white;
+            margin-top: 20px;
+        }
+
+        div{
+            border-radius: 10px;
+            border: 1px solid black;
+            width: 600px;
+            height: 100px;
+            margin: auto;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="form">
+        <input id="todo" class="init" type="text" placeholder=" entrez une to do"><br>
+        <!-- <buttom id="valid" class="init" type="button" value="Valider"><br> -->
+       
+    </form>
+    <button id="valid" class="init" >Valider</button>
+    <h2>Liste des Todos</h2>
+    <div id="todoList"></div>
+    <script src="./Exo_js4_dom_formulaire.js"></script>
+</body>
+</html>
