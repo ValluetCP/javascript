@@ -16,8 +16,17 @@
         $('#para').on('click', () => {
             console.log("click détecté sur le bouton");
         });
+
+        $('#para').click(() => {
+            console.log("click détecté sur le bouton");
+        });
         
-        // Dans le cadre d'un formulaire
+        // Dans le cadre d'un formulaire avec le paramètre e
+        $('#para').click((event) => {
+            event.preventDefault(); // évite d'envoyer le formulaire
+            console.log("click détecté sur le bouton");
+        });
+        // ou bien
         $('#para').click((e) => {
             e.preventDefault(); // évite d'envoyer le formulaire
             console.log("click détecté sur le bouton");
