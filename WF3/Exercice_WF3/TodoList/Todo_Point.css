@@ -1,0 +1,53 @@
+
+form{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 50px;
+}
+
+/* .btn_valid{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    align-items: end;
+} */
+
+.init{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#todo{
+    width: 500px;
+    height: 30px;
+    
+}
+
+#add_todo{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#todoList{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.maClasse{
+    color: red;
+    /* font-size: 18px; */
+}
