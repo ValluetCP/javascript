@@ -16,6 +16,14 @@
         $('#para').on('click', () => {
             console.log("click détecté sur le bouton");
         });
+        
+        // Dans le cadre d'un formulaire
+        $('#para').click((e) => {
+            e.preventDefault(); // évite d'envoyer le formulaire
+            console.log("click détecté sur le bouton");
+        });
+
+
 
         // version js
         // document.getElementById('para').on('click', function() {
