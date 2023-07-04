@@ -27,7 +27,7 @@ element.style.backgroundColor = "";
 // nodeChild p 30
 
 // page 37 et 39
-createElement // Créer un élément à partir de la du parent
+createElement // Créer un élément à partir du parent
 textContent // Créer du contenu textuel
 
 // revoir page 42 <p> et non <span>
