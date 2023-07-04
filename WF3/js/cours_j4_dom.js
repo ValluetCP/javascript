@@ -33,6 +33,9 @@ textContent // Créer du contenu textuel
 // revoir page 42 <p> et non <span>
 // revoir page 18 ligne 4 head et non body
 
+//page 45 - les input
+
+
 
 console.log(input);
 
