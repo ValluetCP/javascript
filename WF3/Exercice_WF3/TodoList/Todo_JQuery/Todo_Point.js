@@ -1,4 +1,13 @@
 
+// *************************  ENONNCE - 1 **********************//
+
+/*
+Reproduire la maquette TodoList.pdf puis au clic, la liste des Todo sa'allonge.
+Chaque élément cliquer dans la liste devra changer de couleur.
+*/
+
+// ---------------------- Exercices - 1 ----------------------- //
+
 // Version JQuery 
 
 $("#add_todo").on("click",(e) =>{

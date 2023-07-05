@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mystere.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Jeu Mystère</title>
+</head>
+<body>
+    <h1>Jeu Mystère</h1>
+    <h3><span>Consigne :</span> Trouver le nombre mystère. Vous avez 7 essais maximum pour trouver le nombre.</h3>
+    <form class="container">
+        <div class="navigation">
+            <button id="jeu">Nouveau Jeu</button>
+            <button id="solution">Solution</button>
+            <button id="proposer">Proposer</button>
+        </div>
+        <fieldset>
+            <label for="proposition">Proposition :</label>
+            <input type="text" id="proposition" placeholder="saisir un nombre entre 0 et 50" required><br>
+
+            <label for="essai">N°essai :</label>
+            <input type="text" id="essai" value="0" disabled ><br>
+
+            <label for="message">Message :</label>
+            <input type="text" id="message" disabled ><br>
+            
+            <label for="reponse">Réponses :</label>
+            <input type="text" id="reponse" disabled ><br>
+
+        </fieldset>
+    </form>
+
+    <script src="./js/mystere.js"></script>
+</body>
+</html>
