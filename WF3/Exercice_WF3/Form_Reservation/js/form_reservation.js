@@ -28,7 +28,7 @@ plat.on('change', () =>{
             break;
     }
 
-    if(dessertChoix == "Churros"){
+    if(dessertChoix == "Churros"){ // $("#dessert").val()
         prixDessert = 15;
     }
     else if(dessertChoix == "Biscuits"){
