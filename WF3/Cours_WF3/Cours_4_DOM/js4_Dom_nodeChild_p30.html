@@ -10,6 +10,17 @@
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
+
+    <div class="lien_footer">
+        <ul>
+            <li><a href="">Mentions légales</a></li>
+            <li><a href="">Conditions Générales d'Utilisation</a></li>
+            <li><a href="">Politique de confidentialité</a></li>
+            <li><a href="">Cookies</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    
     <script>
         // Sélection de l'élément par son identifiant
         var liste = document.getElementById("maListe");
@@ -20,11 +31,15 @@
         for (var i = 0; i < enfants.length; i++) {
             console.log(enfants[i].nodeName);
         }
+        /* QUESTION :
+        - Comment afficher également la valeur de chaque enfant?*/
 
         //  si on veut recuperer le premier enfant de liste
         liste.firstChild;
+        
         // le deuxieme enfant
         liste.childNodes[1];
+        console.log(liste.childNodes[1]);
         enfants[1];
         
     </script>
