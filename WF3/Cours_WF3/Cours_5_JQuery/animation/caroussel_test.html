@@ -14,31 +14,48 @@
             height: 288px;
             width: 512px;
             background-image: url("img/panda1.jpg");
+            
         }
 
         .next{
             font-size: xx-large;
             position: absolute;
-            top: 150px;
-            right: 450px;
+            top: 130px;
+            right: -50px;
+            /* top: 150px;
+            right: 450px; */
         }
 
         .prev{
             font-size: xx-large;
             position: absolute;
-            top: 150px;
-            left: 450px;
+            top: 130px;
+            /* left: 35%; */
+            /* top: 150px; */
+            left: -50px;
+        }
+
+        .parent{
+            position: relative;
+            margin: auto;
+            width: 512px;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="container">
-        <!-- ici backgound -->
+    <div class="parent">
+        <div class="prev"><i class="fa-solid fa-chevron-left"></i></div>
+        <div class="next"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="container">
+            <!-- ici backgound -->
+        </div>
     </div>
-    <div class="prev">&lt;</div>
-    <div class="next">&gt;</div>
+    
+            
+
+    <!-- SCRIPT -->
     <script>
         let curentIndex = 0;
 
