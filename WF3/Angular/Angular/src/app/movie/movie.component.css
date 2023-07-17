@@ -1,0 +1,34 @@
+.movie{
+    border: 1px solid white;
+    display: flex;
+    color: white;
+    width: 40%;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.enrobe{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.img_affiche{
+    border: 1px solid white;
+}
+
+img{
+    display: block;
+}
+
+.like{
+    margin-top: 50px;
+}
+
+.titre{
+    margin-bottom: 50px;
+}
+
+.description{
+    padding: 20px 0;
+}

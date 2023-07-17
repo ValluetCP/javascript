@@ -1,0 +1,19 @@
+<!-- <p>movie works!</p> -->
+<!-- <div>
+    <h1>{{titre}}</h1>
+    <p>{{description}}</p>
+    <img [src]="img" alt="">
+</div> -->
+
+
+<div class="movie">
+    <div class="img_affiche">
+        <img [src]="img" alt="">
+    </div>
+    <div class="enrobe">
+        <h1 class="titre">{{titre}}</h1>
+        <p class="description">{{description}}</p>
+        <p class="like">{{like}} likes</p>
+        <button (click)="handleClick()"><i class="fa-solid fa-heart"></i></button>
+    </div>
+</div>
