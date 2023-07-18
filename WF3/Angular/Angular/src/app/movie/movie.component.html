@@ -8,12 +8,14 @@
 
 <div class="movie">
     <div class="img_affiche">
-        <img [src]="img" alt="">
+        <img [src]="movie.img" alt="">
     </div>
     <div class="enrobe">
-        <h1 class="titre">{{titre}}</h1>
-        <p class="description">{{description}}</p>
-        <p class="like">{{like}} likes</p>
-        <button (click)="handleClick()"><i class="fa-solid fa-heart"></i></button>
+        <h1 class="titre">{{movie.titre}}</h1>
+        <p class="description">{{movie.description}}</p>
+        <div class="aime">
+            <button (click)="heartClick()" [style.color]="color"><i class="fa-solid fa-heart"></i></button>
+            <p class="like">{{movie.like}} likes</p>
+        </div>
     </div>
 </div>

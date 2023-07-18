@@ -4,7 +4,7 @@
 
 
 nav{
-    background-color: grey;
+    background-color: #7501d4;
     display: flex;
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
@@ -13,10 +13,11 @@ nav{
 a{
     text-decoration: none;
     color: white;
+    font-weight: 600;
 }
 
 a:hover{
-    color: black;
+    color: #f19f5f;
 }
 
 nav>div{
