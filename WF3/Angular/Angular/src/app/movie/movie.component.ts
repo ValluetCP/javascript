@@ -36,6 +36,10 @@ export class MovieComponent {
   }
   
   remove(){
-    this.serviceMovie.movies.filter(film => film.id == this.movie.id);
+    // this.serviceMovie.movies.filter(film => film.id == this.movie.id);
+    const index = this.serviceMovie.movies.findIndex((film) => film.id === this.movie.id);
+    if (index !== -1) {
+      this.serviceMovie.movies.splice(index, 1);}
+      
   }
 }

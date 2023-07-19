@@ -29,7 +29,8 @@ export class Movie {
         public img: string,
         public like: number,
         public liked: boolean,
-        public id: number
+        public id: number,
+        public price: number
      ){}
 }
     

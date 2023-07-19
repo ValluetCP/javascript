@@ -21,7 +21,8 @@ export class NewMovieComponent {
       this.url,
       0,
       false,
-      this.serviceMovie.movies.length+1
+      this.serviceMovie.movies.length+1,
+      0
     );
     this.serviceMovie.movies.push(this.movie);
   }

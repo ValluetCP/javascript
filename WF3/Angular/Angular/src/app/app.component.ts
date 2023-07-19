@@ -9,4 +9,5 @@ import { Movie } from './models/movie.models';
 
 export class AppComponent {
   // couleur = "yellow";
+  laDate = new Date()
 }
