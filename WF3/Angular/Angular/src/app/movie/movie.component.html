@@ -11,11 +11,14 @@
         <img [src]="movie.img" alt="">
     </div>
     <div class="enrobe">
+        <span (click)="remove()" [ngStyle]="{'font-size' : '2em'}" ><i class="croix fa-solid fa-x"></i></span>
         <h1 class="titre">{{movie.titre}}</h1>
         <p class="description">{{movie.description}}</p>
         <div class="aime">
-            <button (click)="heartClick()" [style.color]="color"><i class="fa-solid fa-heart"></i></button>
+            <button [ngStyle]="{color : couleur}" (click)="heartClick()"><i class="fa-solid fa-heart"></i></button>
             <p class="like">{{movie.like}} likes</p>
         </div>
+        
     </div>
+    
 </div>

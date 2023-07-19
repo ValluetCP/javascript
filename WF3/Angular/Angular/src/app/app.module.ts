@@ -9,7 +9,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MovieComponent } from './movie/movie.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
-
+import { NewMovieComponent } from './new-movie/new-movie.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +18,7 @@ import { HomePageComponent } from './home-page/home-page.component';
     MovieComponent,
     MovieListComponent,
     HomePageComponent,
+    NewMovieComponent
   ],
   imports: [
     BrowserModule,

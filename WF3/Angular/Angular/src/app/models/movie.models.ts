@@ -24,11 +24,12 @@
 
 export class Movie {
     constructor(
-     public titre: string,
-     public description: string,
-     public img: string,
-     public like: number,
-     public liked: boolean
+        public titre: string,
+        public description: string,
+        public img: string,
+        public like: number,
+        public liked: boolean,
+        public id: number
      ){}
 }
     
